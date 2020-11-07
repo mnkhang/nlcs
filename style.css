@@ -1,0 +1,182 @@
+/* @import url('https://fonts.googleleapis.com/css?family=Poppins200,300,400,500,600,700,800,900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+body{
+    min-height: 1000px;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(bg2.jpg);   
+    background-size: cover;
+}
+.banner .content h2{
+    font-size: 5em;
+    color:#fff ;
+}
+.banner .content p{
+    font-size:1em;
+    color: #fff ;
+}
+
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #ff0157;/*thay doi mau background btn*/
+    Display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 6px;
+    transition: 0.5s;
+    
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+header{
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000; /*Hien chu len*/
+    display: flex;
+    justify-content: space-between; /*chuyen tat ca the navigation qua ben phai*/
+    align-items:center ;
+    transition: 0.5s;/*chuyen dong*/
+}
+header .logo{
+    color:#fff;
+    font-weight: 700; /*phong chu to hon*/
+    font-size: 2em; /*kich thuoc chu*/
+    text-decoration:none;
+}
+header .logo span{
+    color:#ff0157;
+}
+header .navigation{
+    position: relative;
+    display: flex; /*hien thi navigation thanh ngang*/
+}
+.form p {
+    color:orange;
+}
+
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a{
+    text-decoration: none; /*bỏ gạch chân*/
+    color:#fff;
+    font-weight: 300;
+}
+section{
+    padding:100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+}
+.titleText{
+    color:#111;
+    font-size: 3em;
+    font-weight:300;
+}
+.titleText span{
+    color: #ff0157;
+    font-size:700;
+    font-weight:1.5em;
+}
+.copyrightText{
+    padding: 8px 40px;
+    border-top:1px soild rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyrightText p{
+    color:#333;
+}
+.copyrightText a{
+    color: #ff0157;
+}
+section .list_eat li{ 
+    list-style: none;
+    margin-left: 35px;
+}
+section .list_eat li a{
+    
+    color:#111;
+    font-size: 3em;
+    font-weight:300;
+    text-decoration: none;
+}
+.list_eat li :hover{
+    color: red;
+}
+body {font-family:Arial, Sans-Serif;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+input[type='text'],
+input[type='email'], 
+input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+input[type='submit']{padding: 10px 25px 8px; color: #fff; background-color:  #20d661;margin-left: 31px; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; 
+     border: 1px solid #0164a5; border-radius: 5px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {background-color: #024978;}
+
+/* chinh login  */
+#khung {
+    display: inline-block;
+    height: 500px;
+    width: 950px;
+    background: url(./bg.jpg);
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+    position: absolute;
+    top : 10%;
+    left: 15%;
+}
+
+.form {
+    
+    height: 100%;
+    margin-left: 370px;
+
+
+}
+.form h1{
+    margin-top: 100px;
+    color : #20d661;
+
+    font-family: 'Alegreya', serif;
+    margin-left: 25px   ;
+
+}
+.form input {
+    margin-top: 25px;
+}
+/*chinh dang ki*/
